@@ -21,8 +21,9 @@ class InitialScreen extends HookWidget {
     });
 
 
-    useEffect((){
+    useEffect(() {
         animationController.repeat();
+        return () {};
       },
       const []
     );
